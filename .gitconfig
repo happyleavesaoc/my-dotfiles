@@ -1,0 +1,7 @@
+[user]
+	email = happyleaves.tfr@gmail.com
+	name = happyleaves
+[push]
+	default = simple
+[credential]
+	helper = cache
