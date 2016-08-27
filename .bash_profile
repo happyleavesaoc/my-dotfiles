@@ -1,4 +1,4 @@
-alias ls='ls --color=auto'
+alias ls='ls -A --color=auto'
 
 function _update_ps1() {
     PS1="$(~/powerline-shell.py --colorize-hostname $? 2> /dev/null)"
