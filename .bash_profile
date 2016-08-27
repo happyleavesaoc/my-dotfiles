@@ -1,5 +1,8 @@
 alias ls='ls -A --color=auto'
 
+export WORKON_HOME=~/envs
+source /usr/local/bin/virtualenvwrapper.sh
+
 function _update_ps1() {
     PS1="$(~/powerline-shell.py $? 2> /dev/null)"
 }
