@@ -1,4 +1,6 @@
 alias ls='ls -A --color=auto'
+alias vi=vim
+alias gtree="tree -C -I \"$(tr '\n' '|' < .gitignore | sed 's/.\$//')\" -a"
 
 export WORKON_HOME=~/envs
 source /usr/local/bin/virtualenvwrapper.sh
