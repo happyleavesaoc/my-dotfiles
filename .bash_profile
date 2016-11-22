@@ -1,4 +1,4 @@
-alias ls='ls -A --color=auto'
+alias ls='ls -AF --color=auto'
 alias vi=vim
 alias gtree="tree -C -I \"$(tr '\n' '|' < .gitignore | sed 's/.\$//')\" -a"
 
